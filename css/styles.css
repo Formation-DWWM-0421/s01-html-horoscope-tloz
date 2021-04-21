@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Gugi";
+	src: url("Gugi-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    background-image:url(../images/background.jpg);
+    font-size : 1rem;
+}
+
+
+body {
+    background-color: #131b31;
+    margin: 0 15em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+header{
+    margin : 0 3.5em;
+}
+main{
+    margin : 1em;
+}
+h1 {
+    text-shadow: 0px 0px 20px #FFFFFF;
+	font-family : 'Gugi';
+	font-size : 2em;
+    font: bold;
+    color : white ;
+    text-align : center;
+    padding : 1.2em 0 1em 0;
+}
+
+h2 {
+    
+	font-family : 'Gugi';
+    border-bottom : white 0.05em solid;
+	font-size : 1.5em;
+    font: bold;
+    color : white ;
+    text-align : left;
+    padding : 0 ;
+    margin : 1em 0;
+}
+
+h3 {
+    
+	/*font-family : 'Gugi';*/
+    font-size : 1em;
+    font: bold;
+    color : white ;
+    text-align : left;
+    padding : 0 ;
+    margin : 0.2em 0 0.5em 0;
+}
+
+.date{
+    font-size : 0.5em;
+    color : white ;
+    text-align : left;
+    
+}
+
+.astro{
+    display : inline-block;
+    height: auto;
+    width: 6em;
+}
+.signe {
+    border : white solid;
+    font-size : 0.5em;
+    color : white ;
+}
+
+.signe > img{
+    float: left;
+    shape-outside: padding-box;
+    height : 3em;
+}
+
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #101010;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: .8rem;
+}
+
+.res:hover{
+	color: blue;
+}
